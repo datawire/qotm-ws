@@ -4,4 +4,7 @@
 # Python
 venv
 *.pyc
+
+# Forge
 .forge
+forge.yaml
