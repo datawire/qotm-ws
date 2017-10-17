@@ -2,7 +2,7 @@
 apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
-  name: qotm
+  name: qotm-ws
 spec:
   replicas: 3
   strategy:
@@ -10,7 +10,7 @@ spec:
   template:
     metadata:
       labels:
-        app: qotm
+        app: qotm-ws
     spec:
       containers:
       - name: qotm
